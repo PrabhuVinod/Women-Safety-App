@@ -139,7 +139,7 @@ public class BgService extends Service implements AccelerometerListener{
          		      String target_ph_number=c.getString(1);
          		    
             //         SmsManager smsManager=SmsManager.getDefault();
-            //         smsManager.sendTextMessage("+918121668944", "+918121668944", "Please help me. I need help immediately. This is where i am now:"+str_address, null, null);
+            //         smsManager.sendTextMessage("+918121662586", "+918121662586", "Please help me. I need help immediately. This is where i am now:"+str_address, null, null);
                      
                  	Toast.makeText(getApplicationContext(), "Source:"+source_ph_number+"Target:"+target_ph_number, Toast.LENGTH_SHORT).show();
 
